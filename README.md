@@ -18,7 +18,7 @@ Installation and start-up will be controlled by the included `Dockerfile`. The m
 <br></br>
 - **Additional Feature**
     It is possible to run this program **without** the Docker solution. How to do this...
-    1. Define your Google Account credentials in [creds.env](creds.env).
+    1. Define your Google Account credentials in [creds.env](creds.env).<be></br>
 ⚠️ **Warning:** Do **not** use a personal account. Always use a dummy/test account.
     2. Install Python libraries 
     ```python
@@ -49,7 +49,7 @@ Installation and start-up will be controlled by the included `Dockerfile`. The m
 3. **Redirect** → Navigates to YouTube after login.  
 4. **Extract Cookies** → Retrieves cookies in **JSON format** using Playwright.  
 5. **Convert Format** → Converts cookies from JSON to **Netscape format** for yt-dlp compatibility.  
-6. **Export & Log** → Saves cookies to `cookiefile.txt` and prints them in logs.
+6. **Export & Log** → Saves cookies to `cookiefile.txt` and prints them in logs.<be></br>
    *Alternatively, you can edit the code to make your own method to handle the export. Ex:- push to a repo on Github* 
 
 ## How to Get Started
@@ -58,7 +58,7 @@ Installation and start-up will be controlled by the included `Dockerfile`. The m
     - Ex:- Google Cloud Run (recommended), Railway, Vercel
     During testing, Google Cloud Run worked with no problems. When using other platforms Google might detect the signing in process as a **potential threat**.
 <br></br>
-2. Define your Google Account credentials in [creds.env](creds.env).
+2. Define your Google Account credentials in [creds.env](creds.env).<be></br>
 ⚠️ **Warning:** Do **not** use a personal account. Always use a dummy/test account.
 <br></br>
 3. Setup the service to run on `port 8080`. If needed, please edit the port setting or remove it accordingly on line 113
