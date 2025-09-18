@@ -1,0 +1,6 @@
+playwright
+asyncio
+dotenv
+gunicorn
+flask
+flask[async]
