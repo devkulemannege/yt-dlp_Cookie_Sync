@@ -49,7 +49,8 @@ Installation and start-up will be controlled by the included `Dockerfile`. The m
 3. **Redirect** → Navigates to YouTube after login.  
 4. **Extract Cookies** → Retrieves cookies in **JSON format** using Playwright.  
 5. **Convert Format** → Converts cookies from JSON to **Netscape format** for yt-dlp compatibility.  
-6. **Export & Log** → Saves cookies to `cookiefile.txt` and prints them in logs.  
+6. **Export & Log** → Saves cookies to `cookiefile.txt` and prints them in logs.
+   *Alternatively, you can edit the code to make your own method to handle the export. Ex:- push to a repo on Github* 
 
 ## How to Get Started
 #### Setting Up
