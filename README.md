@@ -21,11 +21,11 @@ Installation and start-up will be controlled by the included `Dockerfile`. The m
     1. Define your Google Account credentials in [creds.env](creds.env).
 ⚠️ **Warning:** Do **not** use a personal account. Always use a dummy/test account.
     2. Install Python libraries 
-    ````python
+    ```python
     pip install -r requirements.txt
-    ````
+    ```
     3. Write the following into a separate .py file...
-    ````python
+    ```python
     from playwright.async_api import async_playwright
     import logging
     import dotenv
@@ -40,7 +40,7 @@ Installation and start-up will be controlled by the included `Dockerfile`. The m
     async def update_execute():
         '''add code inside of function here (line 51 - 104 in updater.py)'''
     asyncio.run(update_execute()) # start async function
-    ````
+    ```
     and that's it!
 
 #### How it Works...
